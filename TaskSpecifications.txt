@@ -1,0 +1,38 @@
+Hey there, this is Sara! Thanks so much for agreeing to work with us :) 
+
+Just a reminder, the cell phone view for the page is already finished. 
+We just need you to make sure it also looks good on computer screens. 
+Right now it looks kind of weird lol. Here's what we we are looking for: 
+
+1. Text on big screens
+- Align all the paragraph text to the left instead of the center
+- Make the size of the paragraph text a little bit bigger (but make sure the lines aren't scrunched together)
+- Make the page title text bigger
+
+2. Picture of the skier on big screens
+- Move the picture of the skier to the left side of the page and make the text wrap around it
+- Make the picture take up a little less than half of the page width so it looks even with the text
+- Put some space around the picture so the text doesn't get too close to it (that always bugs me)
+
+3. Weird hover thing on cell phone
+The last guy programmed some hover effects into the navbar at the top of the page. 
+If you hover over the links with a mouse they change colors and if you hover over
+the snowflake logo it rotates a little bit. The problem is when I'm on my phone and 
+I tap one of those, the effect doesn't go away and it gets stuck like that on the page. 
+Can you fix that?
+
+4. Hidden section
+When the page was first built, there was a section that was just a big picture of a mountain.
+It looked great on my computer but I didn't like how it looked on my cell phone so the dev removed it.
+Could you see if it's still in there somewhere and make it show up on bigger screens?
+
+5. Motion sickness
+The picture in that hidden section had this cool effect where it stayed in the same place 
+as you scrolled the page. I loved the effect but a few of our members who are prone to motion sickness
+felt really sick looking at it. I know they use a setting on their computers that reduces motion. 
+Can you program the picture so the effect doesn't happen for them but everyone else can see it? 
+Now that I think of it, could you also remove the snowflake logo hover effect for them as well?
+
+Thanks again! I'm really excited to see this site finally get finished :)
+
+- Sara

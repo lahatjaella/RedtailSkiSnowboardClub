@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: relative;
+  background-color: #4c5958;
+  padding: 10px;
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__list-item {
+  margin: 0 10px;
+}
+
+.navbar__list-item a {
+  font-family: "Lato", sans-serif;
+  color: white;
+  transition: 0.2s ease;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar__list-item a:hover {
+  color: #ff6eb9;
+}
+
+.navbar__icon {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  transition: 2s ease;
+}
+
+.navbar__icon:hover {
+  transform: rotate(45deg);
+}
+
+/* Disable hover effects on touch devices */
+@media (hover: none) {
+  .navbar__list-item a:hover {
+    color: inherit;
+  }
+
+  .navbar__icon:hover {
+    transform: none;
+  }
+}
+
+#hero {
+  background-image: url(assets/mountain1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 30vh; /* Adjust the height for smaller screens */
+}
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+  #hero {
+    height: 50vh; /* Adjust the height for medium to large screens */
+  }
+}
+
+/* Reduce motion for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #hero {
+    background-attachment: scroll; /* Disable effect */
+  }
+
+  .navbar__icon {
+    transition: none; /* Disable hover effect */
+  }
+
+  .navbar__icon:hover {
+    transform: none; /* Disable hover effect */
+  }
+}
+
+
+main {
+  padding: 2.5vh 10vw;
+  text-align: center;
+  color: #414a49;
+}
+
+#page-title {
+  font-family: "Lora", serif;
+  font-size: 35px;
+}
+
+#skier-image {
+  width: 100%;
+}
+main p {
+  font-family: "Lato", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/* Media Query for big screens */
+@media (min-width: 1024px) {
+  main {
+    text-align: left;
+  }
+
+  main p {
+    font-size: 20px; 
+    line-height: 1.6;
+  }
+
+  #page-title {
+    font-size: 45px; 
+  }
+
+  #skier-image {
+    float: left;
+    width: 45%;
+    margin: 0 20px 20px 0; 
+  }
